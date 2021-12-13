@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kurs Dollar ke Rupiah</title>
+    <script>
+        function kurs() {
+            document.getElementById("hasil").innerHTML=14650*parseFloat(dollar.value);
+        }
+    </script>
+</head>
+<body>
+    <input type="number" placeholder="Masukkan Nilai ($)" id="dollar">
+    <br>
+    <br>
+    <button onclick="kurs()">Hitung Kurs Dollar ke Rupiah</button>
+    <br>
+    <br>
+    Hasil : <span id="hasil"></span>
+</body>
+</html>
